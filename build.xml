@@ -1,3 +1,17 @@
+Online-Airplane-Booking/
+├── src/
+│   └── com/
+│       └── booking/
+│           ├── Main.java
+│           ├── User.java
+│           ├── Flight.java
+│           └── Booking.java
+├── build/
+│   └── classes/ (Generated during build)
+├── dist/
+│   └── OnlineAirplaneBooking.jar (Generated during build)
+├── build.xml
+
 <project name="OnlineAirplaneBookingSystem" default="run" basedir=".">
     <!-- Define properties for project directories -->
     <property name="src.dir" value="src"/>
