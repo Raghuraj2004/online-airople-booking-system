@@ -1,0 +1,16 @@
+// Example of a simple login test
+function loginTest() {
+    const validEmail = "user@example.com";
+    const validPassword = "password123";
+
+    // Simulate user input
+    const inputEmail = "user@example.com";
+    const inputPassword = "password123";
+
+    if (inputEmail === validEmail && inputPassword === validPassword) {
+        console.log("Login Test Passed");
+    } else {
+        console.log("Login Test Failed");
+    }
+}
+loginTest();
